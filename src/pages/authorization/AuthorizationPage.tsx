@@ -1,10 +1,11 @@
-import { RegistrationForm } from './Form/Form';
 import { Wrapper } from '../../components/styles/Wrapper';
-export const Registration = () => {
+import { AuthorizationForm } from './Form/Form';
+
+export const Authorization = () => {
   return (
     <>
       <Wrapper>
-        <RegistrationForm />
+        <AuthorizationForm />
       </Wrapper>
     </>
   );

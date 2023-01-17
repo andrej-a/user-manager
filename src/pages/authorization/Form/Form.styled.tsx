@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 /* CONSTANTS */
-import { size } from '../../models/constants';
+import { size } from '../../../models/constants';
 
 export const FormWrapper = styled.div`
   width: auto;
