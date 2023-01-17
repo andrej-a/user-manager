@@ -5,7 +5,7 @@ import * as yup from 'yup';
 /* MODELS */
 import { IAuthorization } from '../../../models/IAuthorizationData';
 /* STYLES */
-import { FormWrapper, InputWrapper, InputError } from './Form.styled';
+import { FormWrapper, InputWrapper, InputError } from './AuthorizationForm.styled';
 
 export const AuthorizationForm = () => {
   const schema = yup

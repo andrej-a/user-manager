@@ -5,7 +5,7 @@ import * as yup from 'yup';
 /* MODELS */
 import { IRegistration } from '../../../models/IRegistrationData';
 /* STYLES */
-import { FormWrapper, InputWrapper, InputError } from './Form.styled';
+import { FormWrapper, InputWrapper, InputError } from './RegistrationForm.styled';
 export const RegistrationForm = () => {
   const schema = yup
     .object({
